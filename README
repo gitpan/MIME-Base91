@@ -1,0 +1,26 @@
+NAME
+
+    MIME::Base91 - Base91 encoder / decoder
+
+SYNOPSIS
+
+      use MIME::Base91;
+
+      $encoded = MIME::Base91::encode($data);
+      $decoded = MIME::Base91::decode($encoded);
+
+DESCRIPTION
+
+    Encode data similar way like MIME::Base64 does.
+
+EXPORT
+
+    NOTHING
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+SEE ALSO
+
+    perl(1), MIME::Base64(3pm).

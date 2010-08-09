@@ -1,0 +1,10 @@
+# http://module-build.sourceforge.net/META-spec.html
+#
+name:         MIME-Base91
+version:      1.0
+version_from: Base91.pm
+installdirs:  site
+requires:
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.16
