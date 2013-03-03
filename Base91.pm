@@ -20,7 +20,7 @@ for (my $i = 0; $i < @b91_enctab; ++$i) {
 }
 
 use vars qw( $VERSION );
-$VERSION = '1.0';
+$VERSION = '1.1';
 
 sub import {
 	*encode = \&encode_base91;
@@ -116,7 +116,7 @@ NOTHING
 
 =head1 AUTHOR
 
-Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+-
 
 =head1 SEE ALSO
 
